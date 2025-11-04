@@ -1,0 +1,90 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AndreaLopez2025/Fundamento-de-programacion-/blob/main/ecuacion\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        " programa para obtener el tipo de raices por discriminanate"
+      ],
+      "metadata": {
+        "id": "fnJPi2AKFdXa"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#ingresar datos\n",
+        "a= float(input(\"ingrese el valor de a: \"))\n",
+        "b= float(input(\"ingrese el valor de b: \"))\n",
+        "c= float(input(\"ingrese el valor de c: \"))\n",
+        "#calculo del discriminanate\n",
+        "discriminanate= b**2-4*a*c\n",
+        "#clasificacion segun el valor del discriminanate\n",
+        "if discriminanate>0:\n",
+        "    print(\"tiene dos raices reales\")\n",
+        "elif discriminanate==0:\n",
+        "    print(\"tiene una raiz real\")\n",
+        "else:\n",
+        "    print(\"tiene dos raices completas conjugadas\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "599nu4mxHD8x",
+        "outputId": "4f9e3b28-e4fb-432f-b1b8-62ae6d1069ce"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese el valor de a: 15\n",
+            "ingrese el valor de b: 85\n",
+            "ingrese el valor de c: 65\n",
+            "tiene dos raices reales\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#ingreso de datos\n",
+        "print(\"programa para calcular el tipo de valor de las raices de una ecuacion cuadratica\")\n",
+        "a= float(input(\"ingresa el valor de a:\"))\n",
+        "b=float(input(\"ingresa el valor de b:\"))\n",
+        "c= float (input(\"ingresa el valor de c:\"))\n",
+        "#calculo de las raices"
+      ],
+      "metadata": {
+        "id": "7H3I3TyeKBBq"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Te damos la bienvenida a Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
